@@ -1,0 +1,45 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    font-family: "文鼎中鋼筆行楷";
+    font-style: normal;
+    font-size: 18px;
+    background-color: rgba(77,77,77,0.9);
+}
+header p1{
+    font-size: 16px;
+}
+header p2 img{
+    background-color: #fff;
+    border-radius: 50px;
+}
+.carousel .carousel-item img {
+    max-height: 1200px;
+    object-fit: cover;
+}
+footer{
+    font-family: "文鼎中鋼筆行楷";
+    background-color: rgba(77,77,77,0.9);
+    text-align: center;
+    padding: 20px 10px 10px;
+}
+footer h4{
+    font-size: 16px;
+    color:#fff;
+}
+@font-face{
+    font-family: "文鼎中鋼筆行楷";
+    src:url(../font/文鼎中鋼筆行楷.ttf), url(../font/文鼎中鋼筆行楷.woff), url(../font/文鼎中鋼筆行楷.otf), url(../font/文鼎中鋼筆行楷.eot);
+}
+@media screen and (min-width:992px) {
+    header p1{
+        display: none;
+    }
+}
+@media screen and (max-width:991px) {
+    header p2{
+        display: none;
+    }
+}
