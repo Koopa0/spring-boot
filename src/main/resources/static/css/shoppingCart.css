@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+/* Underline Effect*/
+body{
+    font-family: 'Poppins','cwTeXYen',Arial, sans-serif;;
+}
+
+.navbar{
+    height: 70px;
+}
+
+
+.navbar-collapse ul li a.nav-link:before {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: transparent;
+    content: "";
+    opacity: 0;
+    -ms-transition: opacity 0.3s, -webkit-transform 0.3s;
+    -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+    transition: opacity 0.3s, transform 0.3s;
+    -ms-transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+.navbar-collapse ul li:hover a.nav-link:before {
+    opacity: 1;
+    -ms-transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    bottom: 0px;
+    background: #447ee9;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #447ee9;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.dropdown-menu {
+    border: 0px;
+}#navbarDropdownMenuLink{
+    color:rgb(34, 34, 34);
+  font-weight: 550;
+}
+
+/* title photo -----------------------------------------------------*/
+.imgBox {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(41, 41, 41, 0.8);
+   
+    background-blend-mode: multiply ;
+    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.headtext{
+    z-index: 100;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* sidebar -----------------------------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+/*-------------------------------- END ----*/
+#body-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    background-color: #ffffff;
+    padding: 0;
+    /* flex: unset; */
+}
+
+.sidebar-expanded {
+    width: 230px;
+}
+
+.sidebar-collapsed {
+    /*width: 60px;*/
+    width: 100px;
+}
+
+/* ----------| Menu item*/
+#sidebar-container .list-group a {
+    height: 50px;
+    color: white;
+}
+
+/* ----------| Submenu item*/
+#sidebar-container .list-group li.list-group-item {
+    color: rgb(107, 107, 107);
+}
+
+#sidebar-container .list-group .sidebar-submenu a {
+    height: 45px;
+    padding-left: 30px;
+}
+
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+/* ----------| Separators */
+.sidebar-separator-title {
+    color: rgb(107, 107, 107);
+    height: 35px;
+}
+
+.sidebar-separator {
+    color: rgb(107, 107, 107);
+    height: 25px;
+}
+
+.logo-separator {
+    color: rgb(107, 107, 107) e;
+    height: 60px;
+}
+
+.fa-cat {
+    color: rgb(132, 200, 255);
+}
+.fa-dog {
+    color: rgb(132, 200, 255);
+}
+
+
+
+.navLogo{
+    height: 27px;
+}
+
+
+.btn-cart {
+    background-color: transparent;
+    position: relative;
+    font-size: 10px;
+}
+.fa-shopping-bag {
+    color: rgb(165, 165, 165);
+    font-size: 21px;
+}
+.btn-cart .badge {
+    position: absolute;
+    top: -1px;
+    right:2px;
+  
+    font-size: 3px;
+
+   
+}
+.fa-user{
+    color: rgb(165, 165, 165);
+    font-size: 21px;
+}
+
+/* product-card ----------------------------------------------------------*/
+.card-body{
+box-shadow: 10px;
+}
